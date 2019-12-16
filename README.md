@@ -1,6 +1,6 @@
 # Question 3
 
-# This is a test
+# I love Fahad <3
 
 import random
 
