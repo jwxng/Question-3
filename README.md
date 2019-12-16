@@ -4,6 +4,9 @@
 
 import random
 
-def dice_num():
- num = input("Enter a number between 6 and 10:")
- rewrtyuil
+def inputter():
+ loop = True
+ while loop:
+  dice = input("Enter the amount of dice you want (6-10):")
+test
+
