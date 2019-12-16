@@ -1,3 +1,6 @@
 # Question 3
 
-This is a test
+def inputter():
+  loop = True
+  while loop:
+    dice = int(input("Enter the
