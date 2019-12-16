@@ -1,12 +1,20 @@
 # Question 3
 
-# I love Fahad <3
+# This is a test
 
 import random
 
-def inputter():
- loop = True
- while loop:
-  dice = input("Enter the amount of dice you want (6-10):")
-test
+def dice_num():
+ while True:
+  num = input("Enter a number between 6 and 10:")
+  try:
+   num = int(num)
+   if num > 5 and num < 11:
+    break
+            
+   else:
+    print("Enter an integer between 6 and 10!")
+  except:
+   print("Enter a number!")
 
+ 
