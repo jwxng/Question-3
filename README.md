@@ -1,6 +1,5 @@
 # Question 3
-
-# I love Fahad <3
+# Sum it Up
 
 import random
 
