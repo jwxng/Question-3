@@ -1,42 +1,34 @@
 # Question 3
-# Sum it Up
+
+# This is a test
+
+# program
 
 import random
+title_list = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+user_list = [" ", " ", " ", " ", " ", " ", " ", " ", " " ,"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "]
+comp_list = [" ", " ", " ", " ", " ", " ", " ", " ", " " ,"  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "]
 
-def dice_num():
- while True:
-  num = input("Enter a number between 6 and 10:")
-  try:
-   num = int(num)
-   if num > 5 and num < 11:
-    break
-            
-   else:
-    print("Enter an integer between 6 and 10!")
-  except:
-   print("Enter a number!")
+def generate_nums():
+    num_1 = random.randint(1, 6)
+    num_2 = random.randint(1, 6)
+    num_3 = random.randint(1, 6)
+    num_4 = random.randint(1, 6)
+    num_5 = random.randint(1, 6)
+    return num_1, num_2, num_3, num_4, num_5
  
-def computer():
- loop2 = True
- loop3 = True
+# Main
 
- n1, n2, n3, n4, n5 = random()
- l = [n1, n2, n3, n4, n5]
-    
- r1 = random.randint(0, 4)
-  while loop2:
-   r2 = random.randint(0, 4)
-    if r2 != r1:
-     loop2 = False
-  while loop3:
-   r3 = random.randint(0, 4)
-    if r3 != r2 and r3 != r1:
-     loop3 = False
 
-  c1 = l[r1]
-  c2 = l[r2]
-  c3 = l[r3]
-    
-  return c1, c2, c3
 
-c1, c2, c3 = computer()
+
+
+
+
+
+
+
+
+# Main
+
+ 
