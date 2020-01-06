@@ -167,12 +167,12 @@ def computer_tracker(n, table, count):
     return table, in_comp, count
 
 
-#Main Program
-#Player Turn
+# Main Program
+# Player Turn
 while True:
     num = generate_nums()
     print(num)
-    # returning the final value of each cycle to the main program
+# returning the final value of each cycle to the main program
     final_value = user_turn(num)
     # checks if the final_value is not none
    
@@ -189,7 +189,7 @@ while True:
             print("You Win!")        
             break
 
-#Computer Turn
+# Computer Turn
 comp_list = computer_num()
 print("Computer's numbers:", comp_list)
 
